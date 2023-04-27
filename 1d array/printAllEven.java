@@ -1,4 +1,4 @@
-//  tranverse over all the elements of the array using for each loop and print all even elements.
+//  traverse over all the elements of the array using for each loop and print all even elements.
 public class printAllEven {
     public static void main(String[] args) {
         int arr[] ={34,21,64,65,43};
