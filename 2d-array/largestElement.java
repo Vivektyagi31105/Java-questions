@@ -1,4 +1,4 @@
-// Q4: Write a program to find the largest element of a given 2D array of integers.
+// Write a program to find the largest element of a given 2D array of integers.
 
 import java.util.Scanner;
 
@@ -11,9 +11,9 @@ public class largestElement {
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
                  arr[i][j]=scn.nextInt();
-
             }
         }
+        
         int largestNum= arr[0][0];
         
         for(int i=0; i<m; i++){
@@ -21,9 +21,9 @@ public class largestElement {
               if(arr[i][j]>largestNum){
                 largestNum=arr[i][j];
               }
-
             }
         }
+        
         System.out.println("Largest number: "+largestNum);
 
     }
