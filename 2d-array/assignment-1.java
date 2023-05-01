@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
 
-class assignmentNo1{
+class solveNumbers{
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int m= scn.nextInt();
