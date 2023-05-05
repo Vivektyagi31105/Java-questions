@@ -6,7 +6,7 @@
 // Output 2: -1
 
 import java.util.*;
-public class lastOccurance {
+public class lastOccurence {
    public static int lastOccurance1(int arr[], int target){
         int low=0, high= arr.length-1;
         int result=-1;
@@ -37,12 +37,12 @@ public class lastOccurance {
         System.out.println("Input the target element");
         int target = scn.nextInt();
 
-        int result = lastOccurance1(arr, target);
+        int result = lastOccurence1(arr, target);
 
         if(result== -1){
             System.out.println("Target element not present");
         }else{
-            System.out.println("Target Element last occurance present on element: "+ result);
+            System.out.println("Target Element last occurence present on element: "+ result);
         }
     }
 }
