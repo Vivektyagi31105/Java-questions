@@ -1,4 +1,4 @@
-// lower bound or first occurance
+// lower bound or first occurence
 import java.util.*;
 public class lowerBound {
     static int firstOccurence(int arr[], int target){
