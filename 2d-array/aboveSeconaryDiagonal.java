@@ -11,15 +11,14 @@ public class aboveSeconaryDiagonal {
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
                 arr[i][j] = scn.nextInt();
-
             }
         }
+        
         System.out.println("Elements above secondary diagonal:");
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
     
             if(i+j <m-1){
-            
                     System.out.print(arr[i][j]+ " ");
                 }
             }
