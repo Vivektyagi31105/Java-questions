@@ -14,7 +14,9 @@ public class printBothDiagonal {
                 arr[i][j] = scn.nextInt();
             }
         }
+        
         System.out.println("Both diagonal element: ");
+        
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
             if(i+j==0 || i+j ==m-1|| i==j){
