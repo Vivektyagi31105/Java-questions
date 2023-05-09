@@ -13,6 +13,7 @@ import java.util.*;
 public class perfectSquare {
     public static boolean perfect_Square(int n){
         int low=0, high= n;
+        
         while(low<=high){
             int mid= (low+high)/2;
             long value= mid*mid;
@@ -25,6 +26,7 @@ public class perfectSquare {
                 high= mid-1;
             }
         }
+        
         // if(low*low==n|| high*high==n){
         //     return true;
         // }
