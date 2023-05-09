@@ -13,9 +13,12 @@ public class lastOccurence {
 
         while(low<= high){
             int mid= low+(high-low)/2;
+           
             if(arr[mid]== target){
+               
                 result= mid;
                 low= mid+1;
+               
             }else if(arr[mid]<target){
                 low=mid+1;
             }else{
@@ -34,6 +37,7 @@ public class lastOccurence {
         for(int i=0; i<n; i++){
             arr[i]= scn.nextInt();
         }
+       
         System.out.println("Input the target element");
         int target = scn.nextInt();
 
@@ -43,6 +47,7 @@ public class lastOccurence {
             System.out.println("Target element not present");
         }else{
             System.out.println("Target Element last occurence present on element: "+ result);
-        }
+        }    
     }
+   
 }
