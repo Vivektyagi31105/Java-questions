@@ -2,7 +2,7 @@
 
 class maxElement{
     public static void main(String[] args) {
-        int arr[] ={34,21,54,65,43};
+        int arr[] ={34,21,54,65,43,23};
 
         int max=Integer.MIN_VALUE;
 
