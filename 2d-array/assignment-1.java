@@ -50,7 +50,7 @@ class solveNumbers{
         System.out.println("Number of Positive "+numOfPositive);
         System.out.println("Number of Negative "+numOfNegative);
         System.out.println("Number of Odd "+numOfOdd);
-        System.out.println("Number of Even "+numOfEven);;
+        System.out.println("Number of Even "+numOfEven);
         System.out.println("Number of Zero "+numOfZero);
 
         
