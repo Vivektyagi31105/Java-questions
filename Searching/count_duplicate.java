@@ -48,7 +48,7 @@ public static int lastOccurance1(int arr[], int target){
 
 }
 
-static void countDuplicate(int arr[],int target){
+public static void countDuplicate(int arr[],int target){
     int firstOccurence= firstOccurence(arr, target);
     int lastOcurrence= lastOccurance1(arr, target);
      int result= lastOcurrence-firstOccurence+1;
