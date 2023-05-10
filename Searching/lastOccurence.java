@@ -33,6 +33,7 @@ public class lastOccurence {
         System.out.println("Input number of elements in an array:");
         int n= scn.nextInt();
         System.out.println("Type elements of an array");
+       
         int arr[]= new int[n];
         for(int i=0; i<n; i++){
             arr[i]= scn.nextInt();
@@ -43,7 +44,7 @@ public class lastOccurence {
 
         int result = lastOccurence1(arr, target);
 
-        if(result== -1){
+        if(result == -1){
             System.out.println("Target element not present");
         }else{
             System.out.println("Target Element last occurence present on element: "+ result);
