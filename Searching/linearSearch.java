@@ -9,6 +9,7 @@ public class linearSearch {
     System.out.println("Input number of element in array:");
     int n= scn.nextInt();
     System.out.println("Input array elements:");
+    
     int arr[] = new int[n];
     for(int i=0; i<n; i++){
         arr[i]= scn.nextInt();
@@ -23,6 +24,7 @@ public class linearSearch {
             break;
         }
     }
+    
     if(idx==-1){
         System.out.println("Element not found in array");
     }else{
