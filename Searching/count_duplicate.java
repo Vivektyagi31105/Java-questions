@@ -9,7 +9,8 @@
 
 import java.util.*;
 public class count_duplicate {
-static int firstOccurence(int arr[], int target){
+ public static int firstOccurence(int arr[], int target){
+    
     int low=0, high= arr.length-1;
    int result= -1;
     while(low<= high){
