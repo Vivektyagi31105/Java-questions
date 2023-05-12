@@ -1,7 +1,7 @@
 // lower bound or first occurence
 import java.util.*;
 public class lowerBound {
-    static int firstOccurence(int arr[], int target){
+    public static int firstOccurence(int arr[], int target){
            int low=0, high= arr.length-1;
           int result= -1;
            while(low<= high){
