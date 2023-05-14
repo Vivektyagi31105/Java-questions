@@ -6,10 +6,8 @@ public class factorialNumber{
             return 1;
         }else{
             result= n*findFactorial(n-1);
-                return result;
-            
+                return result;       
         }
-
     }
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
