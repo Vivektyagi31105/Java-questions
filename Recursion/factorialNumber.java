@@ -1,6 +1,6 @@
 import java.util.*;
 public class factorialNumber{
-    static int findFactorial(int n){
+    public static int findFactorial(int n){
         int result= 0;
         if(n==0 || n==1){
             return 1;
