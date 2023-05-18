@@ -1,7 +1,7 @@
 import java.util.*;
 public class powerOfElement {
 
-    static long findPower(long a, long b){
+    public static long findPower(long a, long b){
         long mid=0;
         long result=0, finalResult=0;
 
