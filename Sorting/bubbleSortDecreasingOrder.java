@@ -31,7 +31,9 @@ public class bubbleSortDecreasingOrder {
         for(int i=0; i<n; i++){
             arr[i]= scn.nextInt();
         }
+        
         bubbleSort(arr);
+        
         System.out.println("Sorted array is :");
         System.out.println(Arrays.toString(arr));
     }
