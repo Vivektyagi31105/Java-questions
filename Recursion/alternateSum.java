@@ -9,7 +9,7 @@
 
 import java.util.*;
 public class alternateSum {
-    static int alternateSumOfNaturalNum(int n){
+   public static int alternateSumOfNaturalNum(int n){
         int result=0;
         if(n%2 != 0){
             result= (n+1)/2;
