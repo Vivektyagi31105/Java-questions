@@ -29,6 +29,7 @@ public class count_duplicate {
 
     return result;
 }
+ 
 public static int lastOccurance1(int arr[], int target){
     int low=0, high= arr.length-1;
     int result=-1;
@@ -57,10 +58,9 @@ public static void countDuplicate(int arr[],int target){
         System.out.println("Target element not found");
      }else{
         System.out.println("Target occurs "+result+" times.");
-     }
-
-     
+     }  
 }
+ 
     public static void main(String[] args) {
         Scanner scn= new Scanner(System.in);
         System.out.println("Type number of elements in an array:");
@@ -70,6 +70,7 @@ public static void countDuplicate(int arr[],int target){
         for(int i=0; i<n; i++){
             arr[i]= scn.nextInt();
         }
+     
         System.out.println("Type the target elements:");
         int target= scn.nextInt();
        
