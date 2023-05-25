@@ -6,6 +6,7 @@ public class BinarySearch {
 
         while(low<=high){
             int mid=low+(high-low)/2;
+            
             if(arr[mid]==x){
                 return mid;
             }else if(arr[mid]<x){
