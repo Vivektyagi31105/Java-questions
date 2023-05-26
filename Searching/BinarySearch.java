@@ -21,11 +21,13 @@ public class BinarySearch {
         Scanner scn = new Scanner(System.in);
         System.out.println("Input number of element in array:");
         int n= scn.nextInt();
+        
         System.out.println("Type elements of array:");
         int arr[]= new int[n];
         for(int i=0; i<n; i++){
             arr[i]= scn.nextInt();
         }
+        
         System.out.println("Type the key element:");
         int x= scn.nextInt();
 
