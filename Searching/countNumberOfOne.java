@@ -17,7 +17,7 @@ public class countNumberOfOne {
         }else if(arr[mid]==1){
                 result= n-mid;
                 high= low-1;
-        }
+          }
         }
         return result;
        
@@ -26,6 +26,7 @@ public class countNumberOfOne {
         Scanner scn= new Scanner(System.in);
         System.out.println("Input the number of elements in an array:");
         int n=scn.nextInt();
+       
         System.out.println("Type the elements of an array:");
         int arr[]= new int[n];
         for(int i=0; i<n; i++){
