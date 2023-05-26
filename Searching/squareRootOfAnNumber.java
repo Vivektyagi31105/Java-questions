@@ -1,7 +1,7 @@
 // square root an number with modified binary search
 import java.util.*;
 public class squareRootOfAnNumber {
-    static int squareRoot(int n){
+    public static int squareRoot(int n){
         int low=0, high=n;
         int result=-1;
 
