@@ -65,6 +65,7 @@ public static void countDuplicate(int arr[],int target){
         Scanner scn= new Scanner(System.in);
         System.out.println("Type number of elements in an array:");
         int n= scn.nextInt();
+     
           System.out.println("Type the elements in an array:");
         int arr[] = new int[n];
         for(int i=0; i<n; i++){
