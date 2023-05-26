@@ -5,21 +5,23 @@
 import java.util.*;
 public class linearSearch {
   public static void main(String[] args) {
+    
     Scanner scn = new Scanner(System.in);
     System.out.println("Input number of element in array:");
     int n= scn.nextInt();
-    System.out.println("Input array elements:");
     
+    System.out.println("Input array elements:"); 
     int arr[] = new int[n];
     for(int i=0; i<n; i++){
         arr[i]= scn.nextInt();
     }
+    
     System.out.println("Input target element:");
-    int x= scn.nextInt();
+    int target= scn.nextInt();
 
     int idx=-1;
     for(int i=0; i<n; i++){
-        if(arr[i]==x){
+        if(arr[i]==target){
             idx=i;
             break;
         }
