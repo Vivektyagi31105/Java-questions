@@ -4,7 +4,7 @@
 
 import java.util.*;
 public class selectionSortDecreasingOrder {
-    static void selectionSort(int arr[]){
+    public static void selectionSort(int arr[]){
         for(int i=0; i<arr.length; i++){
             int min_idx= i;
 
