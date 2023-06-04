@@ -2,7 +2,7 @@
 // time compelxity = O(n^2)
 import java.util.*;
 public class insertionSort {
-    static void insertion_Sort(int arr[]){
+    public static void insertion_Sort(int arr[]){
         for(int i=1; i<arr.length; i++){
             int j=i;
 
