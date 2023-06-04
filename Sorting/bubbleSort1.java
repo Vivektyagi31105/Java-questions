@@ -1,8 +1,10 @@
 // Bubble sort implement
 //  time complexity= O(n^2)
+
 import java.util.*;
-public class bubbleSort1{
+public class bubbleSort1{  
 public static void main(String[] args) {
+    
     Scanner scn = new Scanner(System.in);
       System.out.println("Type the number of elements in an array:");
     int n= scn.nextInt();
