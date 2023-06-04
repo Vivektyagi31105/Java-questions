@@ -4,7 +4,7 @@
 
 import java.util.*;
 public class bubbleSortDecreasingOrder {
-    static void bubbleSort(int arr[]){
+   public static void bubbleSort(int arr[]){
         for(int i=0; i<arr.length; i++){
             boolean swapped= false;
 
