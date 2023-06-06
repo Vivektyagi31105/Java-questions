@@ -1,7 +1,9 @@
 import java.util.*;
 
  class insertionAtEndInLinkedList {
+  
          Node Head;
+  
          class Node{
             int data;
             Node next;
