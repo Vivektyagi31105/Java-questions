@@ -1,4 +1,5 @@
 public class deletionInLinkedList {
+    
     Node Head;
 
     class Node{
