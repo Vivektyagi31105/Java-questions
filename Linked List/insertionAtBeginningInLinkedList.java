@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class insertionAtBeginningInLinkedList {
+    
     Node Head;
 
     class Node{
