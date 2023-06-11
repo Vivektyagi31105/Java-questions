@@ -19,6 +19,7 @@ import java.util.*;
 
          public void insertAtEnd(int newData){
             Node newNode = new Node(newData);
+          
             // linked list is empty
 
             if(Head == null){
