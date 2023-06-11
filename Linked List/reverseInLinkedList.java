@@ -1,4 +1,5 @@
 public class reverseInLinkedList {
+    
     Node Head;
 
    class Node{
