@@ -1,6 +1,7 @@
 // Write a program to print the elements above the secondary diagonal in a user inputted square matrix.
 
 import java.util.*;
+
 public class aboveSeconaryDiagonal {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
