@@ -29,7 +29,8 @@ public class detectTheLoopInLL {
     }
     // implementation of detecting the loop in Linked list
     // Floyd's cycle detection algorthism
-    void detectLoop(){
+    
+    public void detectLoop(){
         int flag=0;
         Node slow = Head, fast= Head;
         while(slow != null && fast!= null && fast.next!= null){
