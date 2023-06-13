@@ -1,5 +1,4 @@
 
-
 class searchInList{
     Node Head;
 
@@ -14,12 +13,14 @@ class searchInList{
     }
     // implementation of insert a new node at front of list
     public void push(int newData){
+        
         Node newNode = new Node(newData);
         newNode.next = Head;
         Head=  newNode;
     }
 
     // check whether the value X is present in linked list
+    
     public boolean search(Node Head, int X){
         Node current = Head;
 
@@ -27,11 +28,9 @@ class searchInList{
             if(current.data == X)
                 return true;
                current= current.next; 
-            
-           
-        }
-         
-                return false;
+             
+        }   
+        return false;
           
     }
     public static void main(String[] args) {
