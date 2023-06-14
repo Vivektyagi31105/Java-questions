@@ -12,9 +12,7 @@ static Node Head;
             next=null;
         }
     }
-  
-       
-        
+ 
     
     // implementation of insertion of a node at the end of linked list
     public void insertAtEnd(int newData){
@@ -47,7 +45,7 @@ static Node Head;
         }
         return;
      }
-    //  implementaton of displaying the linked list
+    //  implementation of displaying the linked list
      public void displayLinkedList(){
         Node temp = new Node();
         temp = this.Head;
