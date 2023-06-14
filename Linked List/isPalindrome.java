@@ -1,6 +1,6 @@
 public class isPalindrome {
     Node Head;
-    Node slow, fast, second_half_part;
+    Node slow, fast, second_half_part // second part of the list;
 
     class Node{
         int data;
