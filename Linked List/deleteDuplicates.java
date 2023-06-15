@@ -1,5 +1,6 @@
 
 import java.util.*;
+
 public class deleteDuplicates {
 static Node Head;
 
@@ -16,9 +17,11 @@ static Node Head;
     
     // implementation of insertion of a node at the end of linked list
     public void insertAtEnd(int newData){
+        
          Node newNode = new Node();
     newNode.data = newData;
     newNode.next = null; 
+        
     if(Head == null) {
       Head = newNode;
     } else {
@@ -29,6 +32,7 @@ static Node Head;
       temp.next = newNode;
     }   
     }
+    
     // implementation of delete duplicate of linked list
      public static void delete_Duplicate(){
         if(Head== null || Head.next== null ){
@@ -45,6 +49,7 @@ static Node Head;
         }
         return;
      }
+    
     //  implementation of displaying the linked list
      public void displayLinkedList(){
         Node temp = new Node();
