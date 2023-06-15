@@ -45,7 +45,7 @@ public class isPalindrome {
         }
             return result;
         }
-         void reverse(){
+         public void reverse(){
             Node prev = null;
             Node current = second_half_part;
             Node next;
