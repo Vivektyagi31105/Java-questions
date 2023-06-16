@@ -1,6 +1,6 @@
 import java.util.*;
 
-class searchInList{
+public class searchInList{
     Node Head;
 
     class Node{
