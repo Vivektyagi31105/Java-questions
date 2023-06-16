@@ -1,6 +1,6 @@
 import java.util.*;
 
- class insertionAtEndInLinkedList {
+ public class insertionAtEndInLinkedList {
   
          Node Head;
   
