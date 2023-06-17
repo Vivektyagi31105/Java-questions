@@ -34,7 +34,7 @@ import java.util.*;
             quick_sort(arr, m+1, h);
         }
     }
-   static void printArr(int arr[],int n){
+  public static void printArr(int arr[],int n){
         for(int i=0; i<n; i++){
             System.out.print(arr[i] +" ");
         }
