@@ -1,3 +1,5 @@
+// Bubble sort
+// Time complexity- O(n^2)
 import java.util.*;
 public class bubbleSort {
     public static void bubble_Sort(int arr[]){
