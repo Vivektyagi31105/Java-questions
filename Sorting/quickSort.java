@@ -2,8 +2,8 @@
 // time complexity- nlogn
 import java.util.*;
 
-class quickSort{
-    static int partition(int arr[],int l, int h){
+ public class quickSort{
+    public static int partition(int arr[],int l, int h){
         int i= l;
         int pivot = arr[i]; //pivot as first element
         for(int j=l+1; j<=h; j++){
