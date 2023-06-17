@@ -25,7 +25,7 @@ import java.util.*;
     arr[i] = temp;
     return i;
 }
-   static void quick_sort(int arr[], int l, int h){
+  public static void quick_sort(int arr[], int l, int h){
         if(l<h){
             // 1. divide the array into subproblems
             int m= partition(arr, l,h);
