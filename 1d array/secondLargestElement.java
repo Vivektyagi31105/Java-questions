@@ -1,5 +1,5 @@
 // second largest element 
-
+import java.util.*;
 public class secondLargestElement {
     public static void main(String[] args) {
         int arr[] ={34,21,54,65,43};
