@@ -1,5 +1,5 @@
 // maximum element in an array
-
+import java.util.*;
 class maxElement{
     public static void main(String[] args) {
         int arr[] ={34,21,54,65,43,23};
