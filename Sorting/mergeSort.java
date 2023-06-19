@@ -57,7 +57,7 @@ public class mergeSort{
 
 
     }
-    static void merge_Sort(int arr[],int l, int r){
+   public static void merge_Sort(int arr[],int l, int r){
         if(l<r){
             // divide the array into two subproblem
             int mid = l+(r-l)/2;
