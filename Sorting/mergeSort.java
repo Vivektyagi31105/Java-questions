@@ -7,11 +7,13 @@ import java.util.*;
 public class mergeSort{
     
     public static void mergeProcedure(int arr[], int l, int mid, int r){
+        
         int i,j,k;   //i- left subarray pointer, j- right subarray pointer
 
         // size of left and right subarray
         int n1 = mid-l+1;
         int n2 = r -mid;
+        
         // left subarray and right subarray
         
         int lsubarray[]= new int[n1];
