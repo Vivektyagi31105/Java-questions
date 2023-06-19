@@ -2,8 +2,11 @@
 // Time complexity- O(nlogn)
 // space complexity- O(n)
 
+import java.util.*;
+
 public class mergeSort{
-    static void mergeProcedure(int arr[], int l, int mid, int r){
+    
+    public static void mergeProcedure(int arr[], int l, int mid, int r){
         int i,j,k;   //i- left subarray pointer, j- right subarray pointer
 
         // size of left and right subarray
