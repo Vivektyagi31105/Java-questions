@@ -71,7 +71,7 @@ public class mergeSort{
             mergeProcedure(arr,l,mid,r);
         }
     }
-    static void printArr(int arr[], int n){
+    public static void printArr(int arr[], int n){
         for(int i=0; i<n; i++){
             System.out.print(arr[i]+" ");
         }
