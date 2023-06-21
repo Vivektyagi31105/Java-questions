@@ -1,5 +1,4 @@
-import java.util.*;3
-
+import java.util.*;
 
 public class quickSort_decreasingOrder {
     static int partition(int arr[], int low, int high){
