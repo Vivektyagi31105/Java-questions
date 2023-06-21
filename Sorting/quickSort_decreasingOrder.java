@@ -1,4 +1,6 @@
 // Quick sort decreasing order
+// Time complexity- O(nlogn) 
+
 import java.util.*;
 
 public class quickSort_decreasingOrder {
