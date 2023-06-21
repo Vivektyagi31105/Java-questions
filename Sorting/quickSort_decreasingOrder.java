@@ -4,7 +4,7 @@
 import java.util.*;
 
 public class quickSort_decreasingOrder {
-    static int partition(int arr[], int low, int high){
+   public static int partition(int arr[], int low, int high){
        int i=low;
        int pivot= arr[i]; // first element as pivot
 
