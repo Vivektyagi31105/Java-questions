@@ -1,4 +1,7 @@
+// Merge Sort decreasing order
+// Time complexity- O(nlogn)
 import java.util.*;
+
 public class mergeSort_decreasingOrder {
     static void mergeProcedure(int arr[], int low ,int mid,int high){
         // i- left subarray pointer
