@@ -41,7 +41,7 @@ public class segregate_negative_positive {
         // divide the array into subproblems
         // mid of array
         int mid= low+(high-low)/2;
-
+      // conquer the subproblems via recursion
         // split the left subarray
         partition(arr, temp, low, mid);
 
