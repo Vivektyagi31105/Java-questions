@@ -26,7 +26,7 @@ public class quickSort_decreasingOrder {
          return i;
        
     }
-    static void quickSort(int arr[],int low, int high){
+    public static void quickSort(int arr[],int low, int high){
         if(low<high){
         //   divide array in subproblems
         int mid= partition(arr,low,high);
