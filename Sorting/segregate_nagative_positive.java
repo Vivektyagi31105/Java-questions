@@ -38,7 +38,7 @@ public class segregate_nagative_positive {
         if(high<=low){
             return;
         }
-        
+        // divide the array into subproblems
         // mid of array
         int mid= low+(high-low)/2;
 
