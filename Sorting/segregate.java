@@ -1,3 +1,4 @@
+import java.util.*;
 public class segregate {
     static void segregateArray(int arr[],int n){
         int pIndex= 0;
