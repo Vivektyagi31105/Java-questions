@@ -2,7 +2,7 @@ import java.util.*;
 
 public class segregate_negative_positive {
     
-    static void segregate(int arr[], int temp[],int low, int mid, int high){
+   public static void segregate(int arr[], int temp[],int low, int mid, int high){
         int i=0, j=0, k=low;
 
         // copy negative elements from left subarray
