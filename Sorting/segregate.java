@@ -15,7 +15,7 @@ public class segregate {
         }
 
     }
-    static void print(int arr[], int n){
+   public static void print(int arr[], int n){
         for(int i: arr){
             System.out.print(i+" ");
         }
