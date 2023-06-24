@@ -1,6 +1,7 @@
 import java.util.*;
+
 public class segregate {
-    static void segregateArray(int arr[],int n){
+   public static void segregateArray(int arr[],int n){
         int pIndex= 0;
 
         for(int i=0; i<n; i++){
