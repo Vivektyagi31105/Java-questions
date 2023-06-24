@@ -23,7 +23,7 @@ public class sortExpectTwoSwappedElements {
         arr[a]= arr[b];
         arr[b]=swap;
     }
-    static void print(int arr[],int n){
+   public static void print(int arr[],int n){
         for(int i=0; i<n; i++){
             System.out.print(arr[i]+" ");
         }
