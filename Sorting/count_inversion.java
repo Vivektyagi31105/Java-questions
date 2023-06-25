@@ -41,6 +41,7 @@ public class count_inversion {
         if(low<high){
         
         int mid= low+(high-low)/2;
+           
         count += partition(arr, low, mid);
         count += partition(arr ,mid+1, high);
 
