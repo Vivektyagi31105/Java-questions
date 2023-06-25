@@ -3,7 +3,7 @@
 import java.util.*;
 
 public class count_inversion {
-    static int mergeProcedure(int arr[], int low, int mid, int high){
+   public static int mergeProcedure(int arr[], int low, int mid, int high){
          int swap=0;
          int lsubArray[]= Arrays.copyOfRange(arr,low, mid+1);
          int rsubArray[]= Arrays.copyOfRange(arr,mid+1,high+1);
@@ -14,13 +14,12 @@ public class count_inversion {
         
             if(lsubArray[i] <= rsubArray[j]){
                 arr[k++]= lsubArray[i++];
-                // i++;
+              
             }else{
                 arr[k++] = rsubArray[j++];
-                // j++;
+          
                 swap+= (mid+1)-(low+i);
             }
-            // k++;
          }
          while(i< lsubArray.length){
             arr[k++]= lsubArray[i++];
