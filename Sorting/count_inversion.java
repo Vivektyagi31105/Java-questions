@@ -53,7 +53,7 @@ public class count_inversion {
         
          int count= partition(arr, 0, n-1);
 
-         System.out.println(count);
+         System.out.println("The count inversion of array: "+count);
          
     }
 }
