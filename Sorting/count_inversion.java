@@ -3,7 +3,9 @@
 import java.util.*;
 
 public class count_inversion {
+   
    public static int mergeProcedure(int arr[], int low, int mid, int high){
+      
          int swap=0;
       
          int lsubArray[]= Arrays.copyOfRange(arr,low, mid+1);
