@@ -31,7 +31,7 @@ public class count_inversion {
          return swap;
 
     }
-    static int partition(int arr[], int low, int high){
+    public static int partition(int arr[], int low, int high){
    
         int count=0;
 
