@@ -36,7 +36,7 @@ public class segregate_negative_positive {
         }
 
     }
-    static void partition(int arr[],int temp[],int low,int high){
+   public static void partition(int arr[],int temp[],int low,int high){
         if(high<=low){
             return;
         }
