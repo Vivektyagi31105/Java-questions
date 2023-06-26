@@ -61,7 +61,7 @@ public class mergeSort_decreasingOrder {
 
     }
 
-    static void mergeSort(int arr[], int low, int high){
+    public static void mergeSort(int arr[], int low, int high){
         if(low< high){
             // divide the array in subproblems
             int mid=  low+(high-low)/2;
