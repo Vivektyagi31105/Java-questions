@@ -3,7 +3,7 @@
 import java.util.*;
 
 public class mergeSort_decreasingOrder {
-    static void mergeProcedure(int arr[], int low ,int mid,int high){
+   public static void mergeProcedure(int arr[], int low ,int mid,int high){
         // i- left subarray pointer
         // j- right subarray pointer
 
