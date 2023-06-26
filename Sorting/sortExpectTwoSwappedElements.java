@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class sortExpectTwoSwappedElements {
+   
    public static void sortArr(int arr[],int n){
         int a=-1,b=-1;
         int prev = arr[0];
