@@ -38,7 +38,7 @@ public class quickSort_decreasingOrder {
 
         }
     }
-    static void print(int arr[],int n){
+   public static void print(int arr[],int n){
         for(int i=0; i<n; i++){
             System.out.print(arr[i]+" ");
         }
