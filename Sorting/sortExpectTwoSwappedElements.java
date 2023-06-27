@@ -30,6 +30,7 @@ public class sortExpectTwoSwappedElements {
         }
         System.out.println();
     }
+   
     public static void main(String[] args) {
         int arr[] = {3,8,6,7,5,9,10};
         int n= arr.length;
