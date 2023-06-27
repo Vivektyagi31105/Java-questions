@@ -54,7 +54,7 @@ public class segregate_negative_positive {
         segregate(arr,temp,low,mid,high);
 
     }
-    static void print(int arr[],int n){
+    public static void print(int arr[],int n){
         for(int i=0; i<n; i++){
             System.out.print(arr[i]+" ");
         }
