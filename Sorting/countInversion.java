@@ -1,6 +1,7 @@
 // Brutal force approach
 
 import java.util.*;
+
 public class countInversion {
     public static int numberOfinversion(int arr[], int n){
         int count=0;
