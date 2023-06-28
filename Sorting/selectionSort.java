@@ -23,6 +23,7 @@ public class selectionSort {
            
         }
     }
+    
   public static void main(String[] args) {
     Scanner scn = new Scanner(System.in);
     System.out.println("Type the number of elements of aan array:");
