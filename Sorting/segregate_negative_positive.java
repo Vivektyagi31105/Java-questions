@@ -60,6 +60,7 @@ public class segregate_negative_positive {
         }
         System.out.println();
     }
+    
     public static void main(String[] args) {
         int arr[] ={19, -20, 7, -4, -13, 11, -5, 3};
         int n= arr.length;
