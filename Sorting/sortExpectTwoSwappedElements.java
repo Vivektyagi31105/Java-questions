@@ -18,8 +18,8 @@ public class sortExpectTwoSwappedElements {
                 }else{
                     prev= arr[i];
             }
-
         }
+      
         int swap = arr[a];
         arr[a]= arr[b];
         arr[b]=swap;
