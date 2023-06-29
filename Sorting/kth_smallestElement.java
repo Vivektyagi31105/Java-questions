@@ -1,8 +1,9 @@
 import java.util.*;
 
 public class kth_smallestElement {
+     
      public static int  partition(int arr[],int low, int high){
-        int pivot = arr[low];
+        int pivot = arr[low]; //first element as pivot
         int i= low;
    
         for(int j=i+1; j<=high; j++){
