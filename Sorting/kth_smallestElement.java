@@ -21,7 +21,7 @@ public class kth_smallestElement {
        return i;
     }
 
-    static int selectionProcedure(int arr[], int low, int high,int k){
+   public static int selectionProcedure(int arr[], int low, int high,int k){
       
         int mid= partition(arr, low, high);
 
