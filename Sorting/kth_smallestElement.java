@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class kth_smallestElement {
-     
+     // partition with quicksort algorithm
      public static int  partition(int arr[],int low, int high){
         int pivot = arr[low]; //first element as pivot
         int i= low;
@@ -40,7 +40,9 @@ public class kth_smallestElement {
         int arr[] = {20,10,5,30,40,50};
         int n= arr.length;
         int k=1;
+
     int result= selectionProcedure(arr,  0, n-1,k);
+
     System.out.println("kth smallest element is: "+result);
 
     }
