@@ -1,4 +1,4 @@
-// 
+// sum of corresponding element is equal and greater than k
 import java.util.*;
 
 public class sumOfCorrespondingElement {
