@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class sumOfCorrespondingElement {
-    static boolean correspondingSum(int []a,Integer b[], int n, int k){
+    public static boolean correspondingSum(int []a,Integer b[], int n, int k){
           if(n!=b.length){
             return false;
           }
