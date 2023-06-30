@@ -8,6 +8,7 @@ public class sumOfCorrespondingElement {
           }
          // sort array a[] in ascending order
           Arrays.sort(a);
+        // sort b[] in descending order
             Arrays.sort(b,Collections.reverseOrder());
        
         
