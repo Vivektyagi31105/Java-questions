@@ -2,6 +2,7 @@ import java.util.*;
 
 public class sumOfCorrespondingElement {
     public static boolean correspondingSum(int []a,Integer b[], int n, int k){
+        // a and b array length is not equal
           if(n!=b.length){
             return false;
           }
