@@ -6,7 +6,7 @@ public class sumOfCorrespondingElement {
           if(n!=b.length){
             return false;
           }
-         
+         // sort array a[] in ascending order
           Arrays.sort(a);
             Arrays.sort(b,Collections.reverseOrder());
        
