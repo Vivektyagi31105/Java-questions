@@ -1,5 +1,6 @@
 // Bubble sort
 // Time complexity- O(n^2)
+
 import java.util.*;
 
 public class bubbleSort {
@@ -8,6 +9,7 @@ public class bubbleSort {
             boolean swapped= false;
             for(int j=0; j<arr.length-i-1; j++){
                 if(arr[j]> arr[j+1]){
+                    
                     int swap = arr[j];
                     arr[j]= arr[j+1];
                     arr[j+1]= swap;
@@ -15,6 +17,7 @@ public class bubbleSort {
                     swapped= true;
                 }
             }
+            
             if(!swapped){
                 break;
             }
