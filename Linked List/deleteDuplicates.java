@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class deleteDuplicates {
+    
 static Node Head;
 
     class newNode{
