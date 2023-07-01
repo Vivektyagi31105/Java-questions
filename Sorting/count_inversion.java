@@ -16,6 +16,7 @@ public class count_inversion {
          while(i< lsubArray.length && j<rsubArray.length){
         
             if(lsubArray[i] <= rsubArray[j]){
+               
                 arr[k++]= lsubArray[i++];
               
             }else{
