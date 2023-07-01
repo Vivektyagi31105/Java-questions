@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class kth_smallestElement {
+     
      // partition with quicksort algorithm
      public static int  partition(int arr[],int low, int high){
         int pivot = arr[low]; //first element as pivot
