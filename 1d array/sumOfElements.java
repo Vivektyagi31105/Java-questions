@@ -1,6 +1,7 @@
-// sum of elements on even indices
+// sum of elements on even indices in an array
 
 import java.util.*;
+
 public class sumOfElements{
     public static void main(String[] args) {
         int arr[] ={3,20,4,6,9};
