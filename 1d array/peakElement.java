@@ -1,4 +1,4 @@
-//  find peak element. A peak element which is greater than left and right.
+//  find peak element in an array. A peak element which is greater than left and right.
 
 import java.util.*;
 
