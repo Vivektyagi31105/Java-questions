@@ -1,4 +1,5 @@
-// second largest element 
+// find second largest element in an array
+
 import java.util.*;
 public class secondLargestElement {
     public static void main(String[] args) {
