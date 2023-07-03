@@ -1,4 +1,5 @@
 // sum of elements on even indices
+
 import java.util.*;
 public class sumOfElements{
     public static void main(String[] args) {
