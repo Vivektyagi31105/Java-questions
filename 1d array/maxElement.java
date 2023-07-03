@@ -1,4 +1,5 @@
-// maximum element in an array
+//find maximum element in an array
+
 import java.util.*;
 
 public class maxElement{
