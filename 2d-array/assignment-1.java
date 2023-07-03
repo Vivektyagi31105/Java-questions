@@ -4,8 +4,9 @@
 // number of odd numbers
 // number of even numbers
 // number of 0.
+
 import java.util.*;
-import java.util.Scanner;
+
 
 class solveNumbers{
     public static void main(String[] args) {
