@@ -6,6 +6,7 @@
 // Output 2: -1
 
 import java.util.*;
+
 public class lastOccurence {
    public static int lastOccurance1(int arr[], int target){
         int low=0, high= arr.length-1;
