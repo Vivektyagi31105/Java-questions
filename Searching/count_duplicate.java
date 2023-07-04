@@ -8,6 +8,7 @@
 // Output: Target 6 occurs 2 times.
 
 import java.util.*;
+
 public class count_duplicate {
  public static int firstOccurence(int arr[], int target){
     
