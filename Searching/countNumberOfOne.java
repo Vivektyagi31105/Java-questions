@@ -5,6 +5,7 @@
 // Output 2: 2
 
 import java.util.*;
+
 public class countNumberOfOne {
    public static int count1(int arr[], int n){
         int low=0, high= arr.length-1;
