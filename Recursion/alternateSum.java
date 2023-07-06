@@ -8,16 +8,19 @@
 // Output 2 : 3
 
 import java.util.*;
+
 public class alternateSum {
    public static int alternateSumOfNaturalNum(int n){
         int result=0;
+      
         if(n%2 != 0){
-            result= (n+1)/2;
+            result = (n+1)/2;
         }else{
-            result= (-n)/2 ;
+            result = (-n)/2 ;
         }
         return result;
     }
+   
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the number:");
