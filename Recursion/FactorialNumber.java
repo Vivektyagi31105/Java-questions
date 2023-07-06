@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class factorialNumber{
     public static int findFactorial(int n){
         int result= 0;
