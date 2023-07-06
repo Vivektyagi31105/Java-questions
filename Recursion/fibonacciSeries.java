@@ -1,6 +1,7 @@
 import java.util.*;
+
 public class fibonacciSeries {
-    static int findFibonacci(int n){
+   public static int findFibonacci(int n){
       int result=0;
       if(n<=1){
         return n;
