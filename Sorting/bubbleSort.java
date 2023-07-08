@@ -25,13 +25,16 @@ public class bubbleSort {
     }
     public static void main(String[] args) {
         Scanner scn= new Scanner(System.in);
+        
         System.out.println("Type number of elements in an array: ");
         int n= scn.nextInt();
+        
         System.out.println("Type the elements of an array:");
         int arr[]= new int[n];
         for(int i=0; i<n; i++){
             arr[i]= scn.nextInt();
         }
+        
         bubble_Sort(arr);
 
          System.out.println("Sorted array is: ");
