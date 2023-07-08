@@ -4,11 +4,13 @@ public class kth_smallestElement {
      
      // partition with quicksort algorithm
      public static int  partition(int arr[],int low, int high){
+          
         int pivot = arr[low]; //first element as pivot
         int i= low;
    
         for(int j=i+1; j<=high; j++){
             if(arr[j]<= pivot){
+                 
                 i++;
                 int temp = arr[i];
                 arr[i]= arr[j];
