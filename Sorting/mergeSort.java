@@ -44,6 +44,7 @@ public class mergeSort{
             k++;
         }
         // copying all the remaining elements from the left subarray
+        
         while(i<n1){
             arr[k] = lsubarray[i];
             i++;
