@@ -7,8 +7,9 @@ public class count_inversion {
    public static int mergeProcedure(int arr[], int low, int mid, int high){
       
          int swap=0;
-      
+      // left subarray 
          int lsubArray[]= Arrays.copyOfRange(arr,low, mid+1);
+      // right subarray
          int rsubArray[]= Arrays.copyOfRange(arr,mid+1,high+1);
 
          int i=0,j=0, k=low;
