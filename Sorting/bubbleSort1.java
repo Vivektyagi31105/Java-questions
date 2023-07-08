@@ -7,8 +7,10 @@ public class bubbleSort1{
 public static void main(String[] args) {
     
     Scanner scn = new Scanner(System.in);
+    
       System.out.println("Type the number of elements in an array:");
     int n= scn.nextInt();
+    
     System.out.println("Type the elements of an array");
     int arr[] = new int[n];
      for(int i=0; i<n; i++){
