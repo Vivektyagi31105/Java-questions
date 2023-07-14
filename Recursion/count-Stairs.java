@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class countStairs {
+    
     public static int countNumOfStairs(int n){
         int result=0;
         if(n<=1){
