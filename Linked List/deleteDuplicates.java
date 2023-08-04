@@ -14,7 +14,6 @@ static Node Head;
         }
     }
  
-    
     // implementation of insertion of a node at the end of linked list
     public void insertAtEnd(int newData){
         
